@@ -1,0 +1,31 @@
+.sideNav {
+    height: 100%; 
+    width: 280px; 
+    position: fixed; 
+    left: 0;
+    background:linear-gradient(to top, #232c47, rgb(26, 26, 66));
+    overflow-x: hidden;
+    padding-top: 140px;
+    box-shadow:0 0 5px 5px rgb(156, 156, 156);
+    z-index: 2;
+}
+
+.sideNav a {
+    padding: 5px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: whitesmoke;
+    display: block;
+    font-family:sans-serif;
+}
+
+.sideNav a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.sideNav a:hover {
+    transition:all .5s;
+    transform:scale(1.05)
+}
+
