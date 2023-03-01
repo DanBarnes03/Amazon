@@ -1,0 +1,38 @@
+.product {
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    height:420px;
+}
+
+.cards {
+    width:400px;
+    padding-top:100px;
+}
+
+.productImage {
+    height:300px;
+    width:400px;
+    border-radius: 10px;
+    border-radius: 50px 5px;
+    box-shadow: 10px 10px orange;
+}
+
+.details {
+    font-family: sans-serif;
+    margin-left:20px;
+    font-size: 14px;
+    margin-top:15px;
+    color:rgb(61, 61, 61);
+}
+
+.productName {
+    margin-left:10px;
+}
+
+.product:hover {
+    transition: transform .5s;
+    transform:scale(1.1);
+    text-decoration: underline;
+    cursor: pointer;
+}

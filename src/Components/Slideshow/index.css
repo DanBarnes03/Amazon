@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  background-color: rgb(201, 201, 201);
+}
+
+.active {
+  border:2px solid orange;
+  transform: scale(1.3);
+  transition: all 300ms;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.slideshow {
+  position: relative;
+
+}
+
+.mainImg {
+  transition: all 500ms;
+  height:600px;
+  width:1000px;
+  margin-left:550px;
+  margin-top:180px;
+  border-radius: 20px;
+}
+
+.mainImg:hover {
+  cursor: pointer;
+}
+
+.thumbnail {
+  margin-left:700px;
+  margin-top: 10px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+}
+
+.actions {
+  position: absolute;
+  top:55%;
+  width:53%;
+  display: flex;
+  justify-content: space-between;
+  margin-left:555px;
+}
+
+.actions button {
+  background:grey;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin:5px;
+  border-radius:15px;
+  padding-top:5px;
+  height:50px;
+  width:50px;
+}
+
+.actions button:active {
+  background: gray;
+  border: none;
+  cursor: pointer;
+  padding:10px;
+  margin:5px;
+  border-radius: 15px;
+  padding-top: 5px;
+  height:50px;
+  width:50px;
+}
